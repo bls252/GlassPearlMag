@@ -1,0 +1,78 @@
+revert/* General Styling */
+
+body{
+	background: #d1d1d1;
+	font-family: 'Quicksand', sans-serif;
+	font-family: 'Quattrocento Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+
+
+}
+
+/* links */
+
+a{
+	color: red;
+}
+
+
+
+/* Naviation */
+
+.navigation{
+	background: #fcfcfc;
+	text-align: right;
+	position: top; /* Fixed positioning at the top of the page */
+	top: 0;
+	width: 100%;
+	z-index: 100;
+
+	box-shadow: 2px 2px 15px #888888;
+	height: 120px;
+
+}
+
+.navigation ul{
+	margin: 0;
+	padding: 0;
+}
+
+.navigation li{
+	display: inline-block;
+
+}
+
+.navigation li a{
+	text-decoration: none;
+	color: #121030;
+	display: inline-block;
+	padding: 15px 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.navigation li a:hover{
+	background: #CAD5FF;
+}
+
+
+
+#featureWrapper {
+
+	text-align: center;
+}
+#feature {
+
+	width: 90%;
+	height: 30vw;
+    display: inline-block;
+    padding: 30px;
+    margin-top: 30px;
+
+    background: #fcfcfc;
+    
+}
+
+ save

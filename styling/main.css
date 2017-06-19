@@ -1,0 +1,230 @@
+/* General Styling */
+
+body{
+	background: #d1d1d1;
+	font-family: 'Quicksand', sans-serif;
+	font-family: 'Quattrocento Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+
+
+}
+
+/* links */
+
+a{
+	color: red;
+}
+
+
+
+/* Naviation */
+
+.navigation{
+	background: #fcfcfc;
+	text-align: right;
+	position: fixed; /* Fixed positioning at the top of the page */
+	top: 0;
+	width: 100%;
+	z-index: 100;
+
+	box-shadow: 2px 2px 15px #888888;
+	height: 120px;
+
+}
+
+.navigation ul{
+	margin: 0;
+	padding: 0;
+}
+
+.navigation li{
+	display: inline-block;
+
+}
+
+.navigation li a{
+	text-decoration: none;
+	color: #121030;
+	display: inline-block;
+	padding: 15px 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.navigation li a:hover{
+	background: #CAD5FF;
+}
+
+#header {
+
+}
+
+.cardWrapper {
+
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+.card {
+
+    display: inline-block;
+    background: #fcfcfc;
+
+    margin: 0px;
+	padding: 0px;
+	border: 0px;
+
+}
+
+
+#feature {
+
+	width: 90%;
+	height: 30vw;
+    padding: 0px;
+    margin-top: 160px;
+
+
+}
+
+#assorted {
+
+	text-align: center;
+
+
+
+	width: 90%;
+	height: 40vw;
+    padding: 0px;
+    margin-top: 30px;
+    border: 0px;
+    background:  transparent;
+
+
+}
+
+#article1 {
+
+	height: auto;
+	width: 49%;
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+	height: 100%;
+	float: left;
+
+
+}
+
+#article2 {
+
+	height: auto;
+	width: 49%;
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+	height: 100%;
+	float: right;
+
+}
+
+#article3 {
+
+	height: auto;
+	width: 49%;
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+	height: 100%;
+	float: left;
+
+
+}
+
+#article4 {
+
+	height: auto;
+	width: 49%;
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+	height: 100%;
+	float: right;
+
+}
+
+#article3 {
+
+	height: auto;
+	width: 49%;
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+	height: 100%;
+	float: left;
+
+
+}
+
+#bigFinish {
+
+	text-align: center;
+
+
+
+	width: 90%;
+	height: 40vw;
+    padding: 0px;
+    margin-top: 30px;
+    border: 0px;
+    background:  transparent;
+
+}
+
+#section3 {
+
+	height: 750px;
+	margin-bottom: 40px;
+
+
+}
+
+#article5 {
+
+	height: 670px;
+	width: 78%;
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+	float: left;
+
+
+}
+
+#sponsored {
+
+	height: 670px;
+	width: 20%;
+	margin: 0px;
+	padding: 0px;
+	display: inline-block;
+	float: right;
+
+
+}
+
+#footer {
+
+	position: relative;
+	margin-top: 30px;
+
+	box-shadow: 0px 0px;
+	height: 70px;
+
+}
+
+
