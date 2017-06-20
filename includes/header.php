@@ -1,9 +1,9 @@
 	
-	<!-- Navigation bar -->
-		<div id="header" class="navigation">
-			<ul>
-				<li><a href="index.php">Home</a></li>
-				<li><a href="about.php">About</a></li>
-				<li><a href="contact.php">Contact</a></li>
-			</ul>
-		</div>
+<!-- Navigation bar -->
+<div id="header" class="navigation">
+	<ul>
+		<li><a href="index.php">Home</a></li>
+		<li><a href="about.php">About</a></li>
+		<li><a href="contact.php">Contact</a></li>
+	</ul>
+</div>

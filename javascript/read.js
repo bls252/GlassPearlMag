@@ -1,55 +1,71 @@
 /*
-* Javascript functions for the home page
+* Javascript functions for the read page
 *
 * Created June 19th, 2017
 * Brianna Singer
 */
 
-/* Minimizes the header navigation when you have scrolled below it, then returns it to normal size when you scroll back up.*/
-
-// $(document).scroll(function(){
-//     if ($(this).scrollTop()>175){
-//         // animate fixed div to small size:
-//         $('#header').stop().animate({ height: 50 , 'padding-top': 5},100);
-//     } else {
-//         //  animate fixed div to original size
-//         $('#header').stop().animate({ height: 120, 'padding-top': 0},100);
-//     }
-// }); 
-
-function fix_layout(){
-
-  /* Adjust the footer so that it sits at the bottom of the page*/
-    var wraph = document.getElementById('header').offsetHeight;
-    if(wraph<window.innerHeight){ //if header is less than screenheight
-        // var headh   = document.getElementById('header').offsetHeight;
-        // var conth   = document.getElementById('content').offsetHeight;
-        // var footh   = document.getElementById('footer').offsetHeight;
-        // var foottop = headh + conth + footh;
 
 
-         var bodyElements = document.body.children;
-
-         heightCount = 0;
-
-         for (i in bodyElements) {
-         	if (Number.isInteger(bodyElements[i].scrollHeight)){ 
-    			heightCount += bodyElements[i].scrollHeight;
-    		}
-		}
-
-        $("#footer").css({top: heightCount/2 +'px'}); //divide by 2 because the loop is happeneing twice for some reason
-    }
-
-      /* place the title_photo right below the header, and the content div below that*/
-
-      var headerHeight = document.getElementById('header').scrollHeight;
-
-      var title_photoHeight = document.getElementById('title_photo').scrollHeight;
-      var partialPhotoHeight = title_photoHeight * .75;
-
-      $("#title_photo").css({top: headerHeight +'px'});
-      $("#content").style.marginTop=partialPhotoHeight+"px"
 
 
-}
+function arrange_content(){ 
+
+
+  /* place the title_photo right below the header, and the content div below that*/
+
+  var headerHeight = document.getElementById('header').scrollHeight;
+  var title_photoHeight = document.getElementById('title_photo').scrollHeight;
+  var title_photoWidth = document.getElementById('title_photo').scrollWidth;  
+  var title_photo_marginLeft = (window.innerWidth - title_photoWidth)*.9;
+  var title_photo_marginRight = (window.innerWidth - title_photoWidth)*.1;
+  var partialPhotoHeight = title_photoHeight * .75;
+  var content_margin_top = headerHeight + partialPhotoHeight;
+
+  window.alert("title_photoWidth is " + title_photoWidth + " " +
+  	"window.innerWidth is " + window.innerWidth + " " +
+  	"title_photo_marginLeft is " + title_photo_marginLeft + " " +
+  	"title_photo_marginRight is " + title_photo_marginRight)
+
+  document.getElementById("title_photo").style.top = headerHeight+"px";
+  document.getElementById("title_photo").style.marginLeft = title_photo_marginLeft+"px";
+  document.getElementById("title_photo").style.marginRight = title_photo_marginRight+"px";
+  document.getElementById("content").style.marginTop = content_margin_top+"px";
+
+};
+
+
+// window.onload = arrange_content()
+
+//document.onload(arrange_content());
+
+
+/* This will change the title_photo's margins if someone resizes the window.*/ 
+// $(window).resize(function(){
+// 	// find the new margin values based on the current window width
+// 	var leftMargin = ($(window).width() - $(#title_photo).height())*.9;
+// 	var rightMargin = ($(window).width() - $(#title_photo).height())*.1;
+
+// 	alert("leftMargin is " + leftMargin + " " + "rightMargin is " + rightMargin );
+
+
+// 	// then change the css accordingly
+
+// 	$("#title_photo").css("margin-left", leftMargin);
+// 	$("#title_photo").css("margin-right", rightMargin);
+
+// });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
