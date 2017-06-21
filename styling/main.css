@@ -57,7 +57,7 @@ a{
 	background: #CAD5FF;
 }
 
-#header {
+.header {
 
 }
 
@@ -217,7 +217,7 @@ a{
 
 }
 
-#footer {
+.footer {
 
 	position: relative;
 	margin-top: 30px;
