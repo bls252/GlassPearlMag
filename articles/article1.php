@@ -20,7 +20,7 @@
 		<?php include 'includes/header.php';?>
 
 		<div id="title_photo_wrapper">
-			<img id="title_photo" src="images/read1.jpg" alt="fashionModel">
+			<img id="title_photo" src="images/read1.jpg" alt="fashion_model">
 		</div>
 		
 		<div id="content">
@@ -46,56 +46,49 @@
 		        </p>
             </div>
         </div>
-            <div class="sampler" href="article1.php">
-     			<div class="sample" id="samp1">
-     				<a class="articleLink" href="article1.php">
-	     				<img class="sampImage" id="samp1_image" src="images/samp1.jpg" alt="fashionmodel">
-	     			</a>
-	     				<div class="sampTitle" id="sampTitle_1">
-	     					<p class="sampTitleP" id="sampTitleP_1">This is the Title of Sample 1</p>
-	     				</div>
+            <div class="sampler">
+            	<div class="sample" id="samp1">
+     				<img class="sampImage" id="samp1_image" src="images/samp1.jpg" alt="fashion_model">
+     				<div class="sampTitle" id="sampTitle_1">
+     					<p class="sampTitleP" id="sampTitleP_1">This is the Title of Sample 1</p>
+     				</div>
      			</div>
      			<div class="sample" id="samp2">
-     				<a class="articleLink" href="article1.php">
-	     				<img class="sampImage" id="samp2_image" src="images/samp2.jpg" alt="fashionmodel">
-	     			</a>
-	     				<div class="sampTitle" id="sampTitle_2">
-	     					<p class="sampTitleP" id="sampTitleP_2">This is the Title of Sample 2</p>
-	     				</div>
+     				<img class="sampImage" id="samp2_image" src="images/samp2.jpg" alt="fashion_model">
+     				<div class="sampTitle" id="sampTitle_2">
+     					<p class="sampTitleP" id="sampTitleP_2">This is the Title of Sample 2</p>
+     				</div>
      			</div>
      			<div class="sample" id="samp3">
-     				<a class="articleLink" href="article3.php">
-	     				<img class="sampImage" id="samp3_image" src="images/samp3.jpg" alt="fashionmodel">
-	     			</a>
-	     				<div class="sampTitle" id="sampTitle_3">
-	     					<p class="sampTitleP" id="sampTitleP_3">This is the Title of Sample 3</p>
-	     				</div>
+     				<img class="sampImage" id="samp3_image" src="images/samp3.jpg" alt="fashion_model">
+     				<div class="sampTitle" id="sampTitle_3">
+     					<p class="sampTitleP" id="sampTitleP_3">This is the Title of Sample 3</p>
+     				</div>
      			</div>
      			<div class="sample" id="samp4">
-     				<a class="articleLink" href="article4.php">
-	     				<img class="sampImage" id="samp4_image" src="images/samp4.jpg" alt="fashionmodel">
-	     			</a>
-	     				<div class="sampTitle" id="sampTitle_4">
-	     					<p class="sampTitleP" id="sampTitleP_4">This is the Title of Sample 4</p>
-	     				</div>
+     				<img class="sampImage" id="samp4_image" src="images/samp4.jpg" alt="fashion_model">
+     				<div class="sampTitle" id="sampTitle_4">
+     					<p class="sampTitleP" id="sampTitleP_4">This is the Title of Sample 4</p>
+     				</div>
      			</div>
      			<div class="sample" id="samp5">
-     				<a class="articleLink" href="article5.php">
-	     				<img class="sampImage" id="samp5_image" src="images/samp5.jpg" alt="fashionmodel">
-	     			</a>
-	     				<div class="sampTitle" id="sampTitle_5">
-	     					<p class="sampTitleP" id="sampTitleP_5">This is the Title of Sample 5</p>
-	     				</div>
+     				<img class="sampImage" id="samp5_image" src="images/samp5.jpg" alt="fashion_model">
+     				<div class="sampTitle" id="sampTitle_5">
+     					<p class="sampTitleP" id="sampTitleP_5">This is the Title of Sample 5</p>
+     				</div>
      			</div>
+     			<a href="index.php">
      			<div class="sample" id="samp6">
-     				<a class="articleLink" href="article6.php">
-	     				<img class="sampImage" id="samp5_image" src="images/samp6.jpg" alt="fashionmodel">
-	     			</a>
-	     				<div class="sampTitle" id="sampTitle_6">
-	     					<p class="sampTitleP" id="sampTitleP_6">This is the Title of Sample 6</p>
-	     				</div>
-     			</div>
+     				<img class="sampImage" id="samp6_image" src="images/samp6.jpg" alt="fashion_model">
+     				<div class="sampTitle" id="sampTitle_6">
+     					<p class="sampTitleP" id="sampTitleP_6">This is the Title of Sample 6</p>
+     				</div>
+            	</div>
+            	</a>
             </div>
+
+		<?php include 'includes/footer.php';?>
+
+
 	</body>
-	<?php include 'includes/footer.php';?>
 </html>

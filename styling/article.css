@@ -1,7 +1,8 @@
 /* General Styling */
 
 body{
-	background: #fcfcfc;
+	--siteWide-white: #fcfcfc;
+	background: var(--siteWide-white);
 	font-family: 'Quicksand', sans-serif;
 	font-family: 'Quattrocento Sans', sans-serif;
 	margin: 0;
@@ -10,18 +11,10 @@ body{
 
 }
 
-/* links */
-
-a{
-	color: red;
-}
-
-
-
 /* Naviation */
 
 .navigation{
-	background: #fcfcfc;
+	background: var(--siteWide-white);
 	text-align: right;
 	position: fixed; /* Fixed positioning at the top of the page */
 	top: 0;
@@ -75,7 +68,7 @@ a{
 
 
 	text-align: right;
-	background: #fcfcfc;
+	background: var(--siteWide-white);
 	height: 100vw;
 	width: 100%;
 	padding-top: 100px;
@@ -107,11 +100,12 @@ a{
 
 	height: 2000px;
 	width: 75%;
-	background: #fcfcfc;
+	background: var(--siteWide-white);
     z-index: 5;
 	display: inline-block;
     margin-top: 600px;
-  	background: #fcfcfc;
+  	background: var(--siteWide-white);
+  	margin-left: 0px;
 
 
 /*   	background: rgba(90, 125, 0, 0.5);
@@ -144,25 +138,92 @@ a{
 }
 
 #main_article {
-
-	margin: 3vw;
-  	background: #fcfcfc;
+	--articleLeftMargin: 3vw;
+	margin: var(--articleLeftMargin);
+  	background: var(--siteWide-white);
 }
 
+.sampler {
+
+	height: auto;
+	width: 100vw;
+	background: var(--siteWide-white);
+	display: inline-block;
+	margin-left: 1vw;
+}
+
+.sample {
+
+	height: auto;
+	--sampWidth:12vw;
+	width: var(--sampWidth);
+	background: var(--siteWide-white);
+	display: inline-block;
+	margin-right: 2vw;
+	margin-left: 2vw;
+
+}
+
+a .articleLink {
+
+	color: yellow;
+	text-decoration: none;
+	font-style: normal;
+
+
+}
+
+.sampImage {
+
+	height: var(--sampWidth);
+	width: var(--sampWidth);
+
+}
+
+.sampTitle {
+
+	height: 40px;
+	margin: 0px;
+	padding: 0px;
+	bottom: 0px;
+	border: 0px;
+	text-decoration: none;
+	font-style: normal;
+
+}
+
+.sampTitleP {
+
+	margin: 0px;
+	color: black;
+	text-decoration: none;
+	font-style: normal;
+
+}
+
+a .articleLink {
+
+	color: yellow;
+	text-decoration: none;
+	font-style: normal;
+
+}
 
 #footer {
 
 
-	box-shadow: 0px 0px;
-	height: 70px;
+/*	box-shadow: 0px 0px;
+*/	height: 70px;
 	position: relative;
-
 	top: initial;
-
 	margin-top: 30px;
-	
 	bottom: 0px;
-}
+	margin-right:0px;
+
+/*	background-color: blue;
+*/}
+
+
 
 
 
