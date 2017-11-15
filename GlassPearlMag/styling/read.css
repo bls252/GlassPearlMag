@@ -1,0 +1,103 @@
+/* General Styling */
+
+body{
+	background: #fcfcfc;
+	font-family: 'Quicksand', sans-serif;
+	font-family: 'Quattrocento Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+
+
+}
+
+/* links */
+
+a{
+	color: red;
+}
+
+
+
+/* Naviation */
+
+.navigation{
+	background: #fcfcfc;
+	text-align: right;
+	position: fixed; /* Fixed positioning at the top of the page */
+	top: 0;
+	width: 100%;
+	z-index: 100;
+
+	box-shadow: 2px 2px 15px #888888;
+	height: 120px;
+
+}
+
+.navigation ul{
+	margin: 0;
+	padding: 0;
+}
+
+.navigation li{
+	display: inline-block;
+
+}
+
+.navigation li a{
+	text-decoration: none;
+	color: #121030;
+	display: inline-block;
+	padding: 15px 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.navigation li a:hover{
+	background: #CAD5FF;
+}
+
+#header {
+
+	padding-top: 5px;
+	height: 50px;
+
+}
+
+#title_photo {
+
+	float: right;
+	position: absolute;
+	z-index: -1;
+
+
+}
+
+#content {
+
+	height: 2000px;
+	width: 75%;
+
+	background: rgba(90, 125, 0, 0.5);
+
+
+}
+
+
+#footer {
+
+
+	box-shadow: 0px 0px;
+	height: 70px;
+	position: relative;
+
+	top: initial;
+
+	margin-top: 30px;
+	
+	bottom: 0px;
+}
+
+
+
+

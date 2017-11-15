@@ -1,0 +1,28 @@
+How to ZOOM
+
+First have a file called articleData.txt, a database file with a row for each article. Each row has the following variables:
+aritleID,title, subtitle, imageID, iconID, contentID, etc.
+
+
+
+On the page that displays the article:
+
+Make an array of articleIDs from articleData.txt and for each row, then echo a div for that row. The div should contain a linked line of text like so:
+
+<a href="zoom.php?id='.$articleID.'">Click Here to View Article</a>
+
+
+
+On the page that is the template for each article (aka zoom.php):
+
+There should be a php tag that starts by defining which row in articleData.txt we are displaying.
+
+<?php
+
+   $currentArticleID = filter_input(INPUT_GET,'id',FILTER_SANITIZE_STRING);
+
+
+   // now  use the $currentArticleID variable to get the rest of the variables form the articleData.txt file.
+
+?>
+

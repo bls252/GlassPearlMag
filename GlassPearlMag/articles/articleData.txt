@@ -1,0 +1,6 @@
+articleSeat|pageTitle|heroImage|photoCredit|articleTitle|articleSubline|articleText|
+1|Simple is Fashionable|boat.jpg|PersonOnInstagram|This one is copy 3: I really like this one|Fit for a princess—sans royal price tag.|1.txt|
+2|Simple is Fashionable|read1.jpg|PersonOnInstagram|This one is copy 3: I really like this one|Fit for a princess—sans royal price tag.|1.txt|
+3|Simple is Fashionable|read1.jpg|PersonOnInstagram|This one is copy 3: I really like this one|Fit for a princess—sans royal price tag.|1.txt|
+4|Simple is Fashionable|read1.jpg|PersonOnInstagram|This one is copy 3: I really like this one|Fit for a princess—sans royal price tag.|1.txt|
+5|Simple is Fashionable|read1.jpg|PersonOnInstagram|This one is copy 3: I really like this one|Fit for a princess—sans royal price tag.|1.txt|
